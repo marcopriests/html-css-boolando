@@ -9,7 +9,7 @@
     display: flex;
 }
 
-.w-80{
+.w-80 {
     width: 80%;
 }
 
@@ -20,6 +20,7 @@
 .w-30 {
     width: 30%;
 }
+
 .w-25 {
     width: 25%;
 }
@@ -34,6 +35,10 @@
 
 .text-right {
     text-align: right;
+}
+
+.space-between {
+    justify-content: space-between;
 }
 
 
@@ -53,7 +58,7 @@ header {
     z-index: 1;
 }
 
-.head-container{
+.head-container {
     margin: 0 auto;
 }
 
@@ -63,13 +68,13 @@ header {
     margin-right: 5px;
 }
 
-.head-menu li a{
+.head-menu li a {
     text-decoration: none;
     color: white;
     transition: .3s;
 }
 
-.head-menu li a:hover{
+.head-menu li a:hover {
     color: black;
 }
 
@@ -77,13 +82,13 @@ header {
     width: 100px;
 }
 
-.head-btn a{
+.head-btn a {
     text-decoration: none;
     color: white;
     transition: .3s;
 }
 
-.head-btn a:hover{
+.head-btn a:hover {
     color: black;
 }
 
@@ -101,15 +106,15 @@ main {
     gap: 20px;
 }
 
-.product {    
+.product {
     position: relative;
 }
 
-.product:hover .neutral{
+.product:hover .neutral {
     display: none;
 }
 
-.product:hover .active{
+.product:hover .active {
     display: block;
 }
 
@@ -117,16 +122,16 @@ main {
     width: 100%;
 }
 
-.neutral{
+.neutral {
     display: block;
 }
 
-.active{
+.active {
     display: none;
 }
 
-.favorite{
-    padding:  20px;
+.favorite {
+    padding: 20px;
     background-color: #fff;
     font-size: 30px;
     position: absolute;
@@ -134,7 +139,7 @@ main {
     right: 0;
 }
 
-.favorite:hover .heart{
+.favorite:hover .heart {
     color: red;
 }
 
@@ -180,4 +185,46 @@ main {
     display: inline-block;
     text-decoration: line-through;
     font-size: 14px;
+}
+
+footer {
+    padding: 30px 0 100px 0;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.foot-container {
+    margin: 0 auto;
+}
+
+.foot-logo {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.foot-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 10px;
+    transition: .3s;
+}
+
+.foot-menu li:hover {
+    color: #ff6900;
+}
+
+.foot-right i{
+    font-size: 20px;
+    margin: 20px 5px;
+    transition: .3s;
+}
+
+.foot-right i:hover {
+    color: #ff6900;
 }
