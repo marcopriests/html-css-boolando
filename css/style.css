@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Utility */
+.d-flex {
+    display: flex;
+}
+
+.w-80{
+    width: 80%;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-25 {
+    width: 25%;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+
+
+
+/* Style */
+body {
+    font-family: "Inter";
+}
+
+header {
+    background-color: #ff6900;
+    color: white;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+}
+
+.head-container{
+    margin: 0 auto;
+}
+
+.head-menu li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.head-menu li a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.head-menu li a:hover{
+    color: black;
+}
+
+.logo {
+    width: 100px;
+}
+
+.head-btn a{
+    text-decoration: none;
+    color: white;
+    transition: .3s;
+}
+
+.head-btn a:hover{
+    color: black;
+}
+
+.head-icon {
+    margin-left: 5px;
+}
