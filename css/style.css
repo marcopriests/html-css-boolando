@@ -12,9 +12,16 @@
 .w-80 {
     width: 80%;
 }
+.w-60 {
+    width: 60%;
+}
 
 .w-50 {
     width: 50%;
+}
+
+.w-40 {
+    width: 40%;
 }
 
 .w-30 {
@@ -108,6 +115,8 @@ main {
 
 .product {
     position: relative;
+    text-decoration: none;
+    color: black;
 }
 
 .product:hover .neutral {
@@ -227,4 +236,72 @@ footer {
 
 .foot-right i:hover {
     color: #ff6900;
+}
+
+
+/* Bonus */
+.gallery{
+    flex-direction: column;
+}
+
+.gallery-img{
+    width: 100%;
+}
+
+.info-big-img {
+    width: 100%;
+    position: relative;
+}
+
+.product-info {
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-brand {
+    color: gray;
+}
+
+.info-name {
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.info-actual-prize {
+    display: inline-block;
+    color: red;
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.info-old-prize {
+    display: inline-block;
+    text-decoration: line-through;
+}
+
+.description {
+    margin: 50px 0;
+}
+
+.btn {
+    padding: 20px 50px;
+    color: white;
+    background-color: #ff6900;
+    border-radius: 50px;
+    transition: .3s;
+}
+
+.btn:hover {
+    background-color: #1a1a1a;
+}
+
+.info-heart {
+    font-size: 30px;
+    margin: 0 20px;
+    transition: .3s;
+}
+
+.info-heart:hover {
+    color: red;
 }

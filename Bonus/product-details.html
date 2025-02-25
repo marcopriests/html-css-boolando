@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -28,7 +28,7 @@
             </div>
 
             <div class="w-50 text-center">
-                <img class="logo" src="./img/boolean-logo.png" alt="">
+                <img class="logo" src="../img/boolean-logo.png" alt="">
             </div>
 
             <div class="head-btn w-25 text-right">
@@ -42,25 +42,44 @@
     <main>
         <div class="container w-80 d-flex">
 
-            <!-- Prodotto 1 -->
-            <div class="product w-30">
-                <img class="product-img neutral" src="./img/1.webp" alt="">
-                <img class="product-img active" src="./img/1b.webp" alt="">
-
-                <div class="favorite">
-                    <i class="heart fa-solid fa-heart"></i>
+            <!-- Prodotto -->
+            <div class="product w-40 d-flex">
+                <div class="gallery d-flex w-25">
+                    <img class="gallery-img" src="../img/1.webp" alt="">
+                    <img class="gallery-img" src="../img/1b.webp" alt="">
+                    <img class="gallery-img" src="../img/1.webp" alt="">
+                    <img class="gallery-img" src="../img/1b.webp" alt="">
                 </div>
 
-                <div class="tag-container d-flex">
-                    <div class="tag discount">-50%</div>
-                    <div class="tag badge">Sostenibilità</div>
+                <div class="info-big-img">
+                    <img class="product-img" src="../img/1.webp" alt="">
                 </div>
-
-                <div class="brand">Levi's</div>
-                <div class="product-name">relaxed fit tee unisex</div>
-                <div class="actual-prize">14,99 &euro;</div>
-                <div class="old-prize">29,99 &euro;</div>
             </div>
+
+            <div class="product-info w-50 d-flex">
+                <div class="info">
+                    <div class="info-brand">Levi's</div>
+                    <div class="info-name">relaxed fit tee unisex</div>
+                    <div class="info-actual-prize">14,99 &euro;</div>
+                    <div class="info-old-prize">29,99 &euro;</div>
+                    <div class="description">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam rem, nobis, earum tempora
+                        delectus
+                        sit illum accusantium consequuntur necessitatibus suscipit itaque quasi magni. Quisquam velit
+                        aspernatur dolorum, ab natus perspiciatis maiores facilis fugit impedit consectetur incidunt
+                        ducimus
+                        officia quam ut dolorem quaerat vero temporibus, ex illo? Qui, vitae quaerat perferendis tempore
+                        molestias nisi quo culpa ratione odio, fugit voluptatibus velit!
+                    </div>
+                </div>
+
+                <div class="d-flex align-center">
+                    <div class="btn">Aggiungi al carrello</div>
+
+                    <i class="info-heart fa-solid fa-heart"></i>
+                </div>
+            </div>
+
     </main>
 
     <footer>
